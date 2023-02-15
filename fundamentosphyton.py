@@ -26,6 +26,7 @@ if __name__ == "__main__":
 
 
     nuevoTema("Operadores de comparacion")
+
     print("2==3",2==3)
     print("2!=3",2!=3)
     print("2<3",2<3)
@@ -34,6 +35,7 @@ if __name__ == "__main__":
     print("2>=3",2>=3)
 
     nuevoTema("Variables")
+
     variable1 = 10
     _variable2 = 34.2
     variable3= "pepe"
@@ -57,6 +59,69 @@ if __name__ == "__main__":
     print(y,type(y))
     print(z,type(z))
     print(h,type(h))
+
+    nuevoTema("flotantes ")
+
+    x=1297.5
+    print(x,type(x))
+    y=0.052829
+    print(y,type(y))
+
+    nuevoTema("Numeros Complejos")
+
+    x = -46j
+    y = 12+45j
+    z = 2j
+
+    print(x, type(x))
+    print(y,type(y))    
+    print(z,type(z))
+
+
+    nuevoTema("Listas")
+
+    a = [10,20.5,"phyton list"]
+    print(a)
+
+    a= ["listas2",45,16.3]
+    print(a)
+    print(a[2])
+    a[1] = 34.6 
+    print(a)
+
+    nuevoTema("Tuplas")
+
+    t = (25,"tupla",5.6)
+    print(t)
+    print(t[1])
+    #t[0] = "Modificado" # Operacion no permitida
+    #print(t)
+
+    nuevoTema("Conjuntos")
+    c = {50,20,10,4,8,50}
+    print(c)
+
+    nuevoTema("Diccionarios")
+    d = {1: "valor2", "2":45}
+    print(d, type(d))
+    print(d["2"])
+    print(d[1])
+
+    nuevoTema("Cadenas")
+    cadena1 = "cadena entre comillas dobles"
+    print(cadena1)
+    cadena2 = 'cadena entre comillas sencillas'
+    print(cadena2)
+    cadena3 = ''' Cadena de
+    varias
+    lineas'''
+    print (cadena3)
+
+
+
+
+
+
 
 
     
