@@ -44,6 +44,21 @@ if __name__ == "__main__":
 
     A,B,C = 98, 3.13416, "bIENVENIDO"
     print(A,B,C)
+
+    nuevoTema("Enteros ")
+    w=105
+    x=2074074873847821
+    y= -345
+    z=0b0110011 #entero en binario.
+    h=0xffa #entero enhexadecimal.
+
+    print(w,type(w))
+    print(x,type(x))
+    print(y,type(y))
+    print(z,type(z))
+    print(h,type(h))
+
+
     
 
 
